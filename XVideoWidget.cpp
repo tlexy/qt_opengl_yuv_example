@@ -169,7 +169,7 @@ void XVideoWidget::initializeGL()
 	datas[1] = new unsigned char[width*height/4];	//U
 	datas[2] = new unsigned char[width*height/4];	//V
 
-	fp = fopen("out240x128.yuv","rb");
+	fp = fopen("../../out240x128.yuv","rb");
 	if (!fp)
 	{
 		qDebug() << "out240x128.yuv file open failed!";
